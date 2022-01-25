@@ -13,37 +13,21 @@ function Bridegroom () {
             >
               <div className='img'>
                 {' '}
-                <img src={Bride} alt='' />{' '}
+                <img src={Groom} alt='' />{' '}
               </div>
               <div className='info valign'>
                 <div className='full-width'>
                   <h6>
-                    Emma<i className='ti-heart'></i>
+                    Miguel<i className='ti-heart'></i>
                   </h6>{' '}
-                  <span>La Novia</span>
+                  <span>El Novio</span>
                   <p>
                     bla bla balbalblasdfga
                     dfgskadfg.kajbkflñdskfjkalsdfkajsfdjaksndfkjasdnfjkasdjkfadfa
               adsfasdffdafdasdfafdafda
               asdfafdafasdda
                   </p>
-                  <div className='social'>
-                    <div className='full-width'>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-facebook'></i>{' '}
-                      </a>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-twitter'></i>{' '}
-                      </a>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-instagram'></i>{' '}
-                        
-                      </a>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -55,36 +39,21 @@ function Bridegroom () {
             >
               <div className='img'>
                 {' '}
-                <img src={Groom} alt='' />{' '}
+                <img src={Bride} alt='' />{' '}
               </div>
               <div className='info valign'>
                 <div className='full-width'>
                   <h6>
-                    Miguel <i className='ti-heart'></i>
+                    Emma <i className='ti-heart'></i>
                   </h6>{' '}
-                  <span>El Novio</span>
+                  <span>La Novia</span>
                   <p>
                   dfgskadfg.kajbkflñdskfjkalsdfka
                   jsfdjaksndfkjasdnfjkasdjkfadfa
               adsfasdffdafdasdfafdafda
               asdfafdafasdda
                   </p>
-                  <div className='social'>
-                    <div className='full-width'>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-facebook'></i>{' '}
-                      </a>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-twitter'></i>{' '}
-                      </a>
-                      <a href='#0' className='icon'>
-                        {' '}
-                        <i className='ti-instagram'></i>{' '}
-                      </a>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>

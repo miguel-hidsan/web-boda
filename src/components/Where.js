@@ -9,8 +9,8 @@ function Where () {
         <div className='row'>
           <div className='col-md-12 mb-30'>
             {' '}
-            <span className='oliven-title-meta'>Questions</span>
-            <h2 className='oliven-title'>When & Where</h2>{' '}
+            <span className='oliven-title-meta'>Preguntas</span>
+            <h2 className='oliven-title'>Dónde y Cuándo</h2>{' '}
           </div>
         </div>
         <div className='row'>
@@ -20,13 +20,12 @@ function Where () {
               <img src={where1} alt='' />
             </div>
             <div className='content'>
-              <h5>Wedding Ceremony</h5>
+              <h5>Ceremonia</h5>
               <p>
-                <i className='ti-location-pin'></i> 175 Broadway, Brooklyn, New
-                York 11244, USA
+                <i className='ti-location-pin'></i> Finca La Montaña, Madrid.
               </p>
               <p>
-                <i className='ti-time'></i> <span>12:00am – 13:00pm</span>
+                <i className='ti-time'></i> <span>19:00am – 19:30pm</span>
               </p>
             </div>
           </div>
@@ -36,13 +35,12 @@ function Where () {
               <img src={where2} alt='' />
             </div>
             <div className='content'>
-              <h5>Weddding Party</h5>
+              <h5>Banquete</h5>
               <p>
-                <i className='ti-location-pin'></i> Fortune Brooklyn restaurant,
-                149 Broadway, Brooklyn, NY, USA
+                <i className='ti-location-pin'></i> Finca La Montaña, Madrid.
               </p>
               <p>
-                <i className='ti-time'></i> <span>14:00pm</span>
+                <i className='ti-time'></i> <span>20:30pm</span>
               </p>
             </div>
           </div>
@@ -52,13 +50,12 @@ function Where () {
               <img src={where3} alt='' />
             </div>
             <div className='content'>
-              <h5>Accomodations</h5>
+              <h5>Alojamiento</h5>
               <p>
-                <i className='ti-direction-alt'></i> Hotel and distance from
-                wedding party restaurant:
+                <i className='ti-direction-alt'></i> La distancia de la finca al hotel es de 100 metros:
               </p>
               <p>
-                <i className='ti-direction'></i> The William Vale (7 min)
+                <i className='ti-direction'></i> Nombre del Hotel (4 min)
               </p>
             </div>
           </div>

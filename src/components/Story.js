@@ -11,9 +11,7 @@ function Story () {
                 {' '}
                 <img src={storyImage} className='img-fluid' alt='' />{' '}
               </div>
-              <div
-                className='story-img-2 story-wedding'
-              ></div>
+              
             </div>
           </div>
           <div className='col-md-7 animate-box'>
