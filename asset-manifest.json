@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-boda/static/css/main.f953960b.chunk.css",
-    "main.js": "/web-boda/static/js/main.5c2d08be.chunk.js",
-    "main.js.map": "/web-boda/static/js/main.5c2d08be.chunk.js.map",
+    "main.js": "/web-boda/static/js/main.b408ddfd.chunk.js",
+    "main.js.map": "/web-boda/static/js/main.b408ddfd.chunk.js.map",
     "runtime-main.js": "/web-boda/static/js/runtime-main.04d085d8.js",
     "runtime-main.js.map": "/web-boda/static/js/runtime-main.04d085d8.js.map",
     "static/js/2.3a92e1df.chunk.js": "/web-boda/static/js/2.3a92e1df.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.04d085d8.js",
     "static/js/2.3a92e1df.chunk.js",
     "static/css/main.f953960b.chunk.css",
-    "static/js/main.5c2d08be.chunk.js"
+    "static/js/main.b408ddfd.chunk.js"
   ]
 }
