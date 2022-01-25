@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-boda/static/css/main.f953960b.chunk.css",
-    "main.js": "/web-boda/static/js/main.04a08b91.chunk.js",
-    "main.js.map": "/web-boda/static/js/main.04a08b91.chunk.js.map",
+    "main.js": "/web-boda/static/js/main.5c2d08be.chunk.js",
+    "main.js.map": "/web-boda/static/js/main.5c2d08be.chunk.js.map",
     "runtime-main.js": "/web-boda/static/js/runtime-main.04d085d8.js",
     "runtime-main.js.map": "/web-boda/static/js/runtime-main.04d085d8.js.map",
     "static/js/2.3a92e1df.chunk.js": "/web-boda/static/js/2.3a92e1df.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/web-boda/index.html",
     "static/css/main.f953960b.chunk.css.map": "/web-boda/static/css/main.f953960b.chunk.css.map",
     "static/js/2.3a92e1df.chunk.js.LICENSE.txt": "/web-boda/static/js/2.3a92e1df.chunk.js.LICENSE.txt",
-    "static/media/1.432a6f75.jpg": "/web-boda/static/media/1.432a6f75.jpg",
-    "static/media/2.3d5834ed.jpg": "/web-boda/static/media/2.3d5834ed.jpg",
-    "static/media/3.29964c6d.jpg": "/web-boda/static/media/3.29964c6d.jpg",
-    "static/media/4.160bae52.jpg": "/web-boda/static/media/4.160bae52.jpg",
-    "static/media/5.d6bba864.jpg": "/web-boda/static/media/5.d6bba864.jpg",
-    "static/media/6.708a9749.jpg": "/web-boda/static/media/6.708a9749.jpg",
+    "static/media/1.6d51f1a8.jpg": "/web-boda/static/media/1.6d51f1a8.jpg",
+    "static/media/2.d75df0dd.jpg": "/web-boda/static/media/2.d75df0dd.jpg",
+    "static/media/3.3f2c63f6.jpg": "/web-boda/static/media/3.3f2c63f6.jpg",
+    "static/media/4.7340a29d.jpg": "/web-boda/static/media/4.7340a29d.jpg",
+    "static/media/5.d84e93a3.jpg": "/web-boda/static/media/5.d84e93a3.jpg",
+    "static/media/6.d75df0dd.jpg": "/web-boda/static/media/6.d75df0dd.jpg",
     "static/media/index.css": "/web-boda/static/media/wedding-logo.6990e6f8.png",
     "static/media/bride.90c0b454.jpg": "/web-boda/static/media/bride.90c0b454.jpg",
     "static/media/groom.691f67c9.jpg": "/web-boda/static/media/groom.691f67c9.jpg",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.04d085d8.js",
     "static/js/2.3a92e1df.chunk.js",
     "static/css/main.f953960b.chunk.css",
-    "static/js/main.04a08b91.chunk.js"
+    "static/js/main.5c2d08be.chunk.js"
   ]
 }
