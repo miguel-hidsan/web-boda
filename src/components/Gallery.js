@@ -30,7 +30,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>
+                  <h4 className='mb-0'></h4>
                 </div>
               </div>
             </a>
@@ -47,7 +47,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
+                  <h4 className='mb-0'> </h4>{' '}
                 </div>
               </div>
             </a>
@@ -64,7 +64,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>{' '}
+                  <h4 className='mb-0'> </h4>{' '}
                 </div>
               </div>
             </a>
@@ -81,7 +81,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
+                  <h4 className='mb-0'> </h4>{' '}
                 </div>
               </div>
             </a>
@@ -98,7 +98,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>{' '}
+                  <h4 className='mb-0'> </h4>{' '}
                 </div>
               </div>
             </a>
@@ -115,7 +115,7 @@ function Gallery () {
                   />{' '}
                 </div>
                 <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
+                  <h4 className='mb-0'> </h4>{' '}
                 </div>
               </div>
             </a>
