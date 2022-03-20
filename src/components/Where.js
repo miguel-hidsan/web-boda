@@ -65,7 +65,7 @@ function Where() {
               <h5>Alojamiento</h5>
               <p>
                 <i className="ti-direction-alt"></i> Si necesitáis reservar
-                alojamiento, podéis hacerlo antes del 8 de julio y haciendo
+                alojamiento, podéis hacerlo antes del 8 de junio y haciendo
                 referencia al bloqueo de habitaciones por nuestro enlace.
               </p>
               <p>

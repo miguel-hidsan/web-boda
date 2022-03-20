@@ -21,7 +21,7 @@ function Bridegroom() {
                     Miguel<i className="ti-heart"></i>
                   </h6>{" "}
                   <span>El Novio</span>
-                  <p>sdgsddbsbs</p>
+               
                 </div>
               </div>
             </div>
