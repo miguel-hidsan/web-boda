@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 function RSVP() {
   const form = useRef();
   const sendEmail = (e) => {
@@ -24,8 +25,15 @@ function RSVP() {
     alert("Mensaje enviado");
   };
 
+
+ 
+ 
+  
   return (
-    <div id="rsvp" className="section-padding bg-img bg-fixed">
+
+        <div id="rsvp" className="section-padding bg-img bg-fixed">
+    
+
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-6 bg-white p-40">

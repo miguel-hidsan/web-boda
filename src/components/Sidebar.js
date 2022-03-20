@@ -33,16 +33,16 @@ function Sidebar () {
               <a href='#couple'>Pareja</a>
             </li>
             <li>
-              <a href='#story'>Nosotros</a>
+              <a href='#story'>Bienvenidos</a>
             </li>
             <li>
               <a href='#organization'>Organización</a>
             </li>
             <li>
-              <a href='#gallery'>Galería</a>
+              <a href='#whenwhere'>Información</a>
             </li>
             <li>
-              <a href='#whenwhere'>Dónde y cuándo</a>
+              <a href='#gallery'>Galería</a>
             </li>
             <li>
               <a href='#rsvp'>¿Asistirás?</a>

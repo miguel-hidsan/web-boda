@@ -1,30 +1,59 @@
-import React from 'react'
-import gallery1 from '../assets/images/1.jpg'
-import gallery2 from '../assets/images/2.jpg'
-import gallery3 from '../assets/images/3.jpg'
-import gallery4 from '../assets/images/4.jpg'
-import gallery5 from '../assets/images/5.jpg'
-import gallery6 from '../assets/images/6.jpg'
-function Gallery () {
+import React from "react";
+import Disqus from "disqus-react";
+
+import gallery1 from "../assets/images/1.jpg";
+import gallery2 from "../assets/images/2.jpg";
+import gallery3 from "../assets/images/3.jpg";
+import gallery4 from "../assets/images/4.jpg";
+import gallery5 from "../assets/images/5.jpg";
+import gallery6 from "../assets/images/6.jpg";
+
+const disqusShortname = "boda-de-miguel-emma";
+const disqusConfig = {
+  url: "http://localhost:3000",
+  identifier: "article-id",
+  title: "Title of Your Article",
+};
+
+function Gallery() {
   return (
-    <div id='gallery' className='section-padding'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-12 mb-30'>
-            <span className='oliven-title-meta'>Galería</span>
-            <h2 className='oliven-title'>Nuestros recuerdos</h2>
+    <div id="gallery" className="section-padding">
+     
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 mb-30">
+            <span className="oliven-title-meta">Galería</span>
+            <h2 className="oliven-title">Nuestros recuerdos</h2>
           </div>
         </div>
       </div>
-      <div className='container'>
-        <div className='row gallery-filter mt-3'>
-          <div className='col-md-4 gallery-item ceremony'>
+      <div className="container">
+        <div className="row gallery-filter mt-3">
+          <div className="col-md-4 gallery-item ceremony">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
+                  <img
+                    src={gallery1}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
+                </div>
+                <div className="gallery-detail">
+                  <h4 className="mb-0"></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          {/*  <div className='col-md-4 gallery-item ceremony'>
             <a href='/' className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
                   <img
-                    src={gallery1}
+                    src={foto1}
                     className='img-fluid mx-auto d-block'
                     alt=''
                   />{' '}
@@ -35,95 +64,268 @@ function Gallery () {
               </div>
             </a>
           </div>
-          <div className='col-md-4 gallery-item party'>
+
+          <div className='col-md-4 gallery-item ceremony'>
             <a href='/' className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
+                  <img
+                    src={foto2}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto3}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto4}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto5}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto6}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto7}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto8}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className='col-md-4 gallery-item ceremony'>
+            <a href='/' className='img-zoom'>
+              <div className='gallery-box'>
+                <div className='gallery-img'>
+                  {' '}
+                  <img
+                    src={foto9}
+                    className='img-fluid mx-auto d-block'
+                    alt=''
+                  />{' '}
+                </div>
+                <div className='gallery-detail'>
+                  <h4 className='mb-0'></h4>
+                </div>
+              </div>
+            </a>
+          </div> */}
+
+          <div className="col-md-4 gallery-item ceremony">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
+                  <img
+                    src={gallery1}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
+                </div>
+                <div className="gallery-detail">
+                  <h4 className="mb-0"></h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="col-md-4 gallery-item party">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
                   <img
                     src={gallery2}
-                    className='img-fluid mx-auto d-block'
-                    alt=''
-                  />{' '}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'> </h4>{' '}
+                <div className="gallery-detail">
+                  <h4 className="mb-0"> </h4>{" "}
                 </div>
               </div>
             </a>
           </div>
-          <div className='col-md-4 gallery-item ceremony'>
-            <a href='/' className='img-zoom'>
-              <div className='gallery-box'>
-                <div className='gallery-img'>
-                  {' '}
+          <div className="col-md-4 gallery-item ceremony">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
                   <img
                     src={gallery3}
-                    className='img-fluid mx-auto d-block'
-                    alt=''
-                  />{' '}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'> </h4>{' '}
+                <div className="gallery-detail">
+                  <h4 className="mb-0"> </h4>{" "}
                 </div>
               </div>
             </a>
           </div>
-          <div className='col-md-4 gallery-item party'>
-            <a href='/' className='img-zoom'>
-              <div className='gallery-box'>
-                <div className='gallery-img'>
-                  {' '}
+          <div className="col-md-4 gallery-item party">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
                   <img
                     src={gallery4}
-                    className='img-fluid mx-auto d-block'
-                    alt=''
-                  />{' '}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'> </h4>{' '}
+                <div className="gallery-detail">
+                  <h4 className="mb-0"> </h4>{" "}
                 </div>
               </div>
             </a>
           </div>
-          <div className='col-md-4 gallery-item ceremony'>
-            <a href='/' className='img-zoom'>
-              <div className='gallery-box'>
-                <div className='gallery-img'>
-                  {' '}
+          <div className="col-md-4 gallery-item ceremony">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
                   <img
                     src={gallery5}
-                    className='img-fluid mx-auto d-block'
-                    alt=''
-                  />{' '}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'> </h4>{' '}
+                <div className="gallery-detail">
+                  <h4 className="mb-0"> </h4>{" "}
                 </div>
               </div>
             </a>
           </div>
-          <div className='col-md-4 gallery-item party'>
-            <a href='/' className='img-zoom'>
-              <div className='gallery-box'>
-                <div className='gallery-img'>
-                  {' '}
+          <div className="col-md-4 gallery-item party">
+            <a href="/" className="img-zoom">
+              <div className="gallery-box">
+                <div className="gallery-img">
+                  {" "}
                   <img
                     src={gallery6}
-                    className='img-fluid mx-auto d-block'
-                    alt=''
-                  />{' '}
+                    className="img-fluid mx-auto d-block"
+                    alt=""
+                  />{" "}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'> </h4>{' '}
+                <div className="gallery-detail">
+                  <h4 className="mb-0"> </h4>{" "}
                 </div>
               </div>
             </a>
           </div>
         </div>
       </div>
+
+      <div className="article-container">
+
+        <p>Añade un comentario.</p>
+
+        <Disqus.DiscussionEmbed
+          shortname={disqusShortname}
+          config={disqusConfig}
+        />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;
