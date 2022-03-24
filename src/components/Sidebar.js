@@ -42,10 +42,13 @@ function Sidebar () {
               <a href='#whenwhere'>Información</a>
             </li>
             <li>
-              <a href='#gallery'>Galería</a>
+              <a href='#gallery'>Recuerdos</a>
             </li>
             <li>
               <a href='#rsvp'>¿Asistirás?</a>
+            </li>
+            <li>
+              <a href='https://migmma.github.io/Migmma/'>Galería de boda</a>
             </li>
           </ul>
         </nav>
