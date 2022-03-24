@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web-boda/static/css/main.6b0a756c.chunk.css",
-    "main.js": "/web-boda/static/js/main.47971dc0.chunk.js",
-    "main.js.map": "/web-boda/static/js/main.47971dc0.chunk.js.map",
+    "main.css": "/web-boda/static/css/main.7e5104d5.chunk.css",
+    "main.js": "/web-boda/static/js/main.82c23b49.chunk.js",
+    "main.js.map": "/web-boda/static/js/main.82c23b49.chunk.js.map",
     "runtime-main.js": "/web-boda/static/js/runtime-main.e0ec11b4.js",
     "runtime-main.js.map": "/web-boda/static/js/runtime-main.e0ec11b4.js.map",
     "static/js/2.e7329c1e.chunk.js": "/web-boda/static/js/2.e7329c1e.chunk.js",
@@ -10,14 +10,24 @@
     "static/js/3.fea8672f.chunk.js": "/web-boda/static/js/3.fea8672f.chunk.js",
     "static/js/3.fea8672f.chunk.js.map": "/web-boda/static/js/3.fea8672f.chunk.js.map",
     "index.html": "/web-boda/index.html",
-    "static/css/main.6b0a756c.chunk.css.map": "/web-boda/static/css/main.6b0a756c.chunk.css.map",
+    "static/css/main.7e5104d5.chunk.css.map": "/web-boda/static/css/main.7e5104d5.chunk.css.map",
     "static/js/2.e7329c1e.chunk.js.LICENSE.txt": "/web-boda/static/js/2.e7329c1e.chunk.js.LICENSE.txt",
     "static/media/1.6d51f1a8.jpg": "/web-boda/static/media/1.6d51f1a8.jpg",
+    "static/media/10.c45d20ce.jpg": "/web-boda/static/media/10.c45d20ce.jpg",
+    "static/media/11.8981415d.jpg": "/web-boda/static/media/11.8981415d.jpg",
+    "static/media/12.a9f2f345.jpg": "/web-boda/static/media/12.a9f2f345.jpg",
+    "static/media/13.016c9579.jpg": "/web-boda/static/media/13.016c9579.jpg",
+    "static/media/14.97797dde.jpg": "/web-boda/static/media/14.97797dde.jpg",
+    "static/media/15.8b847727.jpg": "/web-boda/static/media/15.8b847727.jpg",
+    "static/media/16.b46c6127.jpg": "/web-boda/static/media/16.b46c6127.jpg",
     "static/media/2.d75df0dd.jpg": "/web-boda/static/media/2.d75df0dd.jpg",
     "static/media/3.3f2c63f6.jpg": "/web-boda/static/media/3.3f2c63f6.jpg",
     "static/media/4.7340a29d.jpg": "/web-boda/static/media/4.7340a29d.jpg",
     "static/media/5.4bb5c855.jpg": "/web-boda/static/media/5.4bb5c855.jpg",
     "static/media/6.d75df0dd.jpg": "/web-boda/static/media/6.d75df0dd.jpg",
+    "static/media/7.69bb896e.jpg": "/web-boda/static/media/7.69bb896e.jpg",
+    "static/media/8.4adc2869.jpg": "/web-boda/static/media/8.4adc2869.jpg",
+    "static/media/9.f0f9d232.jpg": "/web-boda/static/media/9.f0f9d232.jpg",
     "static/media/index.css": "/web-boda/static/media/wedding-logo.6990e6f8.png",
     "static/media/bride.7fe7561c.jpg": "/web-boda/static/media/bride.7fe7561c.jpg",
     "static/media/groom.691f67c9.jpg": "/web-boda/static/media/groom.691f67c9.jpg",
@@ -30,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.e0ec11b4.js",
     "static/js/2.e7329c1e.chunk.js",
-    "static/css/main.6b0a756c.chunk.css",
-    "static/js/main.47971dc0.chunk.js"
+    "static/css/main.7e5104d5.chunk.css",
+    "static/js/main.82c23b49.chunk.js"
   ]
 }
